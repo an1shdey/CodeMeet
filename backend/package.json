@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "install": "^0.13.0",
+    "mongoose": "^8.19.1"
+  },
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "this is a remote interview website project",
+  "main": "src/server.js",
+  "devDependencies": {},
+  "scripts": {
+    "dev": "node --watch src/server.js"
+  },
+  "type": "module",
+  "author": "anish dey",
+  "license": "ISC"
+}
