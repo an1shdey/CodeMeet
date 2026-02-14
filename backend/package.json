@@ -3,15 +3,19 @@
     "dotenv": "^17.2.3",
     "express": "^5.1.0",
     "install": "^0.13.0",
-    "mongoose": "^8.19.1"
+    "mongoose": "^8.19.1",
+    "talent-iq": "file:.."
   },
   "name": "backend",
   "version": "1.0.0",
   "description": "this is a remote interview website project",
   "main": "src/server.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
   "scripts": {
-    "dev": "node --watch src/server.js"
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js"
   },
   "type": "module",
   "author": "anish dey",
