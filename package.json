@@ -17,5 +17,9 @@
   "bugs": {
     "url": "https://github.com/an1shdey/CodeMeet/issues"
   },
-  "homepage": "https://github.com/an1shdey/CodeMeet#readme"
+  "homepage": "https://github.com/an1shdey/CodeMeet#readme",
+  "dependencies": {
+    "@clerk/clerk-react": "^5.60.1",
+    "mongodb": "^7.1.0"
+  }
 }
