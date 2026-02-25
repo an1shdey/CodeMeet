@@ -1,8 +1,8 @@
-import { Inggest } from "inngest";
+import { Inngest } from "inngest";
 import { connectDB } from "./db.js";
-import { User } from "./models/User.js";
+import { User } from "../models/User.js";
 
-export const inngest = new Inggest({ name: "code-meet" });
+export const inngest = new Inngest({ name: "code-meet" });
 
 const syncUser = inngest.createFunction(
     { id: "sync-user" },
