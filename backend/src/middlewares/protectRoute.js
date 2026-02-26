@@ -2,7 +2,7 @@ import { requireAuth } from "@clerk/express";
 import User from "../models/User.js";
 
 export const protectRoute = [
-    requireAuth({ signInUrl: "/sign-in" }), // this middleware will check if the user is authenticated, if not it will redirect to sign-in page
+    requireAuth(),
     async (req, res, next) => {
         try{
             const clerkId = req.auth().userId;
